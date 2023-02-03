@@ -1,0 +1,137 @@
+.section-each-car {
+    padding: 9.6rem 0;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-bottom: 4rem;
+  }
+  .car-img {
+    width: 50%;
+  }
+  .car-details {
+    border: 1px solid #555;
+    width: 350px;
+    height: 350px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  .car-detail {
+    list-style: none;
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  .car-btns {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: space-between;
+  }
+  .del-btn,
+  .bit-btn {
+    padding: 2.4rem;
+    cursor: pointer;
+  }
+  
+  .border {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .cont-1 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+  }
+  .cont-2,
+  .cont-3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  * {
+    box-sizing: border-box;
+}
+
+.details-card {
+    width: 80%;
+    margin: auto;
+}
+
+
+.description-container {
+    position: relative;
+    /* height: 900px; */
+}
+
+.main-description1 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-description h3 {
+    font-size: 2rem;
+}
+
+.add-inputs,
+.add-inputs input {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.add-inputs button {
+    border-radius: 0;
+}
+
+.add-inputs input {
+    height: 48px;
+    width: 65px;
+    border-radius: 0;
+}
+.car-img2 {
+    width: 120%;
+  }
+
+
+.product-title {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.8rem;
+}
+
+.social-list {
+    padding: 0;
+    list-style: none;
+}
+
+.social-list li {
+    float: left;
+    padding: 6px 8px;
+    margin-right: 12px;
+}
+
+.social-list li a {
+    color: black;
+    font-size: 2rem;
+}
+
+.social-list li a i {
+    font-size: 2rem;
+}

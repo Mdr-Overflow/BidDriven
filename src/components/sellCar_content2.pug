@@ -1,0 +1,189 @@
+mixin SellCar-content2()
+    main
+        section.section-sell
+            .container
+                button.reset-all-btn Reset all filters
+                .model-type.border
+                        p.text  Select Model 
+                        span.req *
+                            select.style-box#MODEL
+                                 option(value='audi') audi
+                                    option(value='acura') acura
+                                    option(value='aixam') aixam
+                                    option(value='alfa romeo') alfa romeo
+                                    option(value='aston martin') aston martin
+                                    option(value='bentley') bentley
+                                    option(value='bmw') bmw
+                                    option(value='bugatti') bugatti
+                                    option(value='cadillac') cadillac
+                                    option(value='chevrolet') chevrolet
+                                    option(value='citroen') citroen
+                                    option(value='cupra') cupra
+                                    option(value='dacia') dacia
+                                    option(value='daewoo') daewoo
+                                    option(value='dodge') dodge
+                                    option(value='ds automobiles') ds automobiles
+                                    option(value='ferrari') ferrari
+                                    option(value='fiat') fiat
+                                    option(value='ford') ford
+                                    option(value='gmc') gmc
+                                    option(value='honda') honda
+                                    option(value='hummer') hummer
+                                    option(value='hyundai') hyundai
+                                    option(value='infiniti') infiniti
+                                    option(value='izuzu') izuzu
+                                    option(value='iveco') iveco
+                                    option(value='jaguar') jaguar
+                                    option(value='jeep') jeep
+                                    option(value='kia') kia
+                                    option(value='land rover') land rover
+                                    option(value='lexus') lexus
+                                    option(value='lotus') lotus
+                                    option(value='maserati') maserati
+                                    option(value='maybach') maybach
+                                    option(value='mazda') mazda
+                                    option(value='mclaren') mclaren
+                                    option(value='mercedes-benz') mercedes-benz
+                                    option(value='mini') mini
+                                    option(value='mitsubishi') mitsubishi
+                                    option(value='nissan') nissan
+                                    option(value='opel') opel
+                                    option(value='peugeot') peugeot
+                                    option(value='pontiac') pontiac
+                                    option(value='porsche') porsche
+                                    option(value='renault') renault
+                                    option(value='rolls-royce') rolls-royce
+                                    option(value='rover') rover
+                                    option(value='saab') saab
+                                    option(value='seat') seat
+                                    option(value='skoda') skoda
+                                    option(value='smart') smart
+                                    option(value='ssangyong') ssangyong
+                                    option(value='subaru') subaru
+                                    option(value='suzuki') suzuki
+                                    option(value='tesla') tesla
+                                    option(value='toyota') toyota
+                                    option(value='volkswagen') volkswagen
+                                    option(value='volvo') volvo
+                .fuell.type.border
+                        p.text Fuel Type 
+                        span.req *
+                            .grid.grid--3-cols
+                            label.container-check Petrol
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Diesel
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Electric
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Hybrid
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check LPG
+                                input(type='radio' name='radio')
+                                span.checkmark
+                .transmission.type.border
+                            p.text Transmission Type 
+                            span.req *
+                                .grid.grid--2-cols
+                                    label.container-check Automatic
+                                    input(type='radio' name='radio')
+                                    span.checkmark
+                                    label.container-check Manual
+                                    input(type='radio' name='radio')
+                                    span.checkmark
+                .kilometers.border
+                        p.text Kilometers 
+                        span.req *
+                            input#kilometers(required='' type='number' name='kilometers' placeholder='How many kilometers...')
+                .first.registr.border
+                        p.text First Register 
+                        span.req *
+                            input#firstRegistr(required='' type='date' name='firstRegistr' placeholder='First Register...')
+                .valid.to.border
+                        p.text Valid To
+                        input#validTo(type='date' name='validTo' placeholder='Valid To...')
+                .valid.from.border
+                        p.text Valid From
+                        input#validFrom(type='date' name='validFrom' placeholder='Valid From...')
+                .power.border
+                        p.text Power 
+                        span.req *
+                            input#power(required='' type='number' name='power' placeholder='Power...')
+                .color.border
+                        p.text Color
+                            input#color(type='text' name='color' placeholder='Color...')
+                .body.type.border
+                        p.text Body Type 
+                        span.req *
+                            .grid.grid--3-cols
+                            label.container-check Cabrio
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Combi
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Compact
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Coupe
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check Suv
+                                input(type='radio' name='radio')
+                                span.checkmark
+                .origin.country.border
+                        p.text Origin Country 
+                        span.req *
+                            input#originCountry(required='' type='text' name='originCountry' placeholder='Origin Country...')
+                .doors.border
+                
+                        p.text Doors Numbers 
+                        span.req *
+                            .grid.grid--3-cols
+                            label.container-check 2
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check 4
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check 7
+                                input(type='radio' name='radio')
+                                span.checkmark
+                .taxi.border
+                        p.text Taxi 
+                        span.req *
+                            .grid.grid--3-cols
+                                label.container-check YES
+                                    input(type='radio' name='radio')
+                                    span.checkmark
+                                label.container-check NO
+                                    input(type='radio' name='radio')
+                                    span.checkmark
+                .damage.border
+                        p.text Damage 
+                        span.req *
+                            .grid.grid--3-cols
+                            label.container-check YES
+                                input(type='radio' name='radio')
+                                span.checkmark
+                            label.container-check NO
+                                input(type='radio' name='radio')
+                                span.checkmark
+                .price.border
+                        p.text Price 
+                        span.req *
+                        input#price(required='' type='number' name='price' placeholder='Price...')
+                .emission.border
+                        p.text Emission CO2
+                        input#emission(required='' type='number' name='emission' placeholder='Emission...')
+                .summary.border
+                        p.text Summary 
+                        span.req *
+                        textarea#summary(required='' rows='4' cols='50' placeholder='Describe your car here...')
+                .images.border
+                        p.text Add images
+                        input#img(multiple='' type='file' name='img' accept='image/*')
+                        button.save-all-btn#SAVE(type='submit') Save
