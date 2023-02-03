@@ -2,6 +2,11 @@ Proiect la TW-2022-2023 BidDriven: - Madaras Andrei Iulian
                                    - David Popa 
                                    - Hritu Toma Vlad
 
+
+ * Auth0 based Login 
+![image](https://user-images.githubusercontent.com/75988913/216692310-b6e8ae61-ee5b-47bb-9f8b-147a462807b7.png)
+
+Front-End:
  * Modern
 ![image](https://user-images.githubusercontent.com/75988913/216682495-27757c19-b97e-4532-a632-2760844e63e8.png)
  * Responsive
@@ -9,6 +14,7 @@ Proiect la TW-2022-2023 BidDriven: - Madaras Andrei Iulian
 * Intuitive
  ![image](https://user-images.githubusercontent.com/75988913/216682727-8dffc6c1-d567-47f7-b297-0fd69379a64b.png)
 
+Back-End:
 API support:
 
 
